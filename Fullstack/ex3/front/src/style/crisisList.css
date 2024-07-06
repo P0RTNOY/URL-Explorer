@@ -1,0 +1,61 @@
+.crisis-list .list-group-item {
+  position: relative; /* This allows the absolute positioning of the buttons */
+  padding: 10px 15px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.header-row h2 {
+  margin: 0;
+}
+.crisis-title {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.crisis-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.crisis-description {
+  flex: 2;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.buttoms-right {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  display: flex;
+  gap: 10px; /* Adds some space between buttons */
+}
+
+.buttoms-right .btn {
+  margin-left: 5px; /* Adds some space between buttons */
+}
+
+
+.read-more {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.crisis-date {
+  flex: 1;
+  white-space: nowrap; /* Prevents date from wrapping */
+}

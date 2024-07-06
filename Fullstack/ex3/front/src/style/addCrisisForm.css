@@ -1,0 +1,44 @@
+.add-crisis-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 2rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  background-color: #f8f9fa;
+}
+
+.add-crisis-form h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.add-crisis-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.add-crisis-form .form-group label {
+  font-weight: bold;
+}
+
+.add-crisis-form .form-group input,
+.add-crisis-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.add-crisis-form .btn {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.add-crisis-form .btn:hover {
+  background-color: #0056b3;
+}
